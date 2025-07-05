@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Allerta Meteo - Lombardia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 2rem;
+    }
+    h1 {
+      color: #b22222;
+    }
+    .link-box {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: #ffffff;
+      border-left: 5px solid #b22222;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    a {
+      display: block;
+      color: #003366;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Allerta Meteo - Regione Lombardia</h1>
+
+  <div class="link-box">
+    <h2>🔗 Siti ufficiali</h2>
+    <a href="https://allerta.lom.gov.it/" target="_blank" rel="noopener noreferrer">🌐 Sistema Allerta Lombardia</a>
+    <a href="https://www.protezionecivile.gov.it/it/meteo-idro/" target="_blank" rel="noopener noreferrer">🌐 Protezione Civile Nazionale - Bollettini</a>
+  </div>
+
+  <div class="link-box">
+    <h2>📄 Bollettini e mappe</h2>
+    <p>Clicca sui link per visualizzare i bollettini e le mappe in una nuova pagina.</p>
+    <a href="https://allerta.lom.gov.it/bollettini/" target="_blank" rel="noopener noreferrer">🗂️ Bollettini di Allerta Regione Lombardia</a>
+    <a href="https://allerta.lom.gov.it/it/bollettino-di-vigilanza-meteo" target="_blank" rel="noopener noreferrer">📄 Bollettino di vigilanza meteorologica Lombardia</a>
+    <a href="https://allerta.lom.gov.it/map/allerta.html" target="_blank" rel="noopener noreferrer">🗺️ Mappa Allerta Meteo Lombardia</a>
+    <a href="https://www.protezionecivile.gov.it/it/meteo-idro/vigilanza-meteorologica/" target="_blank" rel="noopener noreferrer">📄 Bollettino di vigilanza meteorologica nazionale</a>
+    <a href="https://www.protezionecivile.gov.it/it/meteo-idro/allerta/" target="_blank" rel="noopener noreferrer">🗺️ Mappa Allerta Nazionale Protezione Civile</a>
+  </div>
+
+</body>
+</html>
